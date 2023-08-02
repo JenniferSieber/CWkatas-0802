@@ -1,13 +1,6 @@
 // 7kyu, 8kyu
 // KATA 1 7kyu
 // https://www.codewars.com/kata/56e20642ddeb0f4fac000344/train/javascript
-//map methods not a function
-// let map1 = [1,2,3].map(x => x ** 2) === [1,4,9]
-// [1,2,3].map(x => 2 * x) === [2,4,6]
-// [1,2,3].map(x => 2 ** x) === [2,4,8]
-// [1,2,3].map(x => x.toString()) === ["1","2","3"]
-// ["1","2","3"].map(x => parseInt(x)) === [1,2,3]
-// ["random","array","to","be","mapped"].map(x => mapping(x)) === [mapping("random"),mapping("array"),mapping("to"),mapping("be"),mapping("mapped")]
 Array.prototype.map = function(func) {
   let arr = [];
   this.forEach((...args) => arr.push(func(...args)));
