@@ -1,4 +1,4 @@
-// 6kyu, 7kyu, 8kyu
+// 7kyu, 8kyu
 // KATA 1 7kyu
 // https://www.codewars.com/kata/56e20642ddeb0f4fac000344/train/javascript
 //map methods not a function
